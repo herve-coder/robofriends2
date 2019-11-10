@@ -4,7 +4,9 @@ import "./CardList.css";
 
 const CardList = ({ robots }) => {
   return (
+    
     <div className="layout">
+    {console.log("cardlist")}
       {robots.map(robot => (
         <Card key={robot.id} {...robot} />
       ))}

@@ -4,11 +4,11 @@ import "./Card.css";
 const Card = props => {
   const { id, name, email } = props;
   return (
-    <article className=" br2 ba  bg-light-green grow b--black-10 mv4 dib w-100 w-50-m w-25-l mw5">
+    <article className=" br4 ba  bg-light-green grow b--black-10 mv4 dib  w-50-m w-25-l ">
       <div className="tc">
         <img
           src={`https://robohash.org/${id}.png?200x200`}
-          className="br-100 h5 w5 dib"
+          className="db br2 br--top center"
           alt=""
         />
         <h1 className="f4">{name}</h1>
